@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery Plugin: Fields &amp; Forms Validation. Fields Validation Demo.</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- My styles -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="page-header">
+        <h1>jQuery Plugin: Fields &amp; Forms Validation <small>Fields Validation Demo</small></h1>
+      </div>
+
+
+      <div class="col-md-3">
+        <p>Validation is triggered by keyup action on input field.</p>
+      </div>
+      <div class="col-md-6">
+        
+        <div role="form">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Text</label>
+            <input type="text" class="form-control" id="textInput" placeholder="Text">
+          </div>
+	  <div class="form-group">
+            <label for="exampleInputDate">Post-Code</label>
+            <input type="postcode" class="form-control" id="postcodeInput" placeholder="PostCode">
+          </div>
+	  <div class="form-group">
+            <label for='exampleInputDate'class='form-control' id='cityOutput'></label>
+          </div>
+	  <p><p>
+          <button class="btn btn-primary btn-block" id="submitBtn">Submit</button>
+        </div>
+
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery Plugin: Forms Validation -->
+    <script src="../../src/jquery-valid.js"></script>
+    <!-- jQuery Plugin: Test Script -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
